@@ -1,7 +1,8 @@
-# Travel project 
+# Travel project-3  
 
 I’m a Graduate from Code Institute building this site to practice and grow my skills. The site is fictional.
 
+https://eazeldon.github.io/travel-part-3/
 
 ### Concept
 
@@ -90,4 +91,4 @@ Testing has been made in Cloud 9, Inspect mode. In addition, it has been live te
 
 ### acknowledgement
 
-I use google map API and some and bootstrap templates
+I use google map API and some bootstrap templates

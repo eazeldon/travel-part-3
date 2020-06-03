@@ -9,7 +9,7 @@
 
  .bg-img {
      /* The image used */
-     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.31)), url("../img/Aurora1.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.31)), url("../assets/img/Aurora1.jpg");
      /* background-image: url("img/palm3.jpg");*/
      /*background-image: url("img/beach22.jpg");*/
      min-height: 850px;
@@ -21,7 +21,7 @@
 
      /* Needed to position the navbar */
      position: relative;
-     background-attachment: fixed;
+    /* background-attachment: fixed;*/
 
  }
 
@@ -33,6 +33,10 @@
      margin: 10px;
      width: auto;
  }
+ 
+ .hydrated {
+    visibility: inherit;
+}
 
  /*----------About-----Your dream vecations---------------------*/
 
@@ -190,9 +194,8 @@
      font-weight: bold;
  }
 
- h4 {
-     color: #a2d0a2;
-     font-size: 25px;
+ h3 {
+     margin-left: 50px;
  }
 
  /*---------------Jumbotron-----for big txt---------------*/
@@ -730,10 +733,10 @@
  div #listing {
 
      position: relative;
-     width: 200px;
-     height: 400px;
+     width: 400px;
+    /* height: 400px;*/
      overflow: auto;
-     left: 500px;
+     left: 400px;
      top: 0px;
      cursor: pointer;
      overflow-x: hidden;
@@ -760,17 +763,20 @@
  #autocomplete {
      background-color: #bac5cf1a;
      border: 3px solid green;
-     width: 65%;
+     width: 200px;
      height: 50px;
      font-size: 20px;
 
  }
+  #accomodationRadio {
+      margin-left: 5px;
+  }
 
  #country {
      background-color: #bac5cf1a;
      border: 3px solid green;
      margin-top: 20px;
-     width: 65%;
+     width: 200px;
      height: 50px;
      font-size: 20px;
  }
@@ -791,7 +797,7 @@
      margin-top: 40px;
 
      border-collapse: collapse;
-     /* width: 240px;*/
+      width: 340px;
  }
 
  #rating {
@@ -825,10 +831,9 @@
      color: black;
  }
 
- #video {
-     color: #fff;
-     width: 100%;
- }
+  .places.country.city {
+         margin-left: 60px;
+     }
 
 
 
@@ -837,8 +842,19 @@
      div #listing {
 
          left: 250px;
+         width: 300px;
 
      }
+      iframe #video {
+         width: 320px;
+         height: 300px;
+     }
+       h3 .places.country.city {
+         margin-left: 60px;
+     }
+      #resultsTable {
+          width: 300px;
+      }
 
 
  }
@@ -885,6 +901,7 @@
      div #listing {
 
          left: 50px;
+         width: 200px;
 
      }
      #map {
@@ -900,9 +917,92 @@
      }
 
      .container-fluid {
-         padding: 70px 50px;
+         padding: 65px 50px;
      }
+   
+    .hydrated {
+    visibility: inherit;
+}
+  iframe #video {
+         width: 320px;
+         height: 300px;
+     }
+     h3 .places.country.city {
+         margin-left: 60px;
+     }
+      #resultsTable {
+          width: 300px;
+      }
+
 
 
  }
+ 
+ /*---------------------------------Results Table*/
+
+/*table {
+    font-size: 15px;
+}
+
+#listing {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+#resultsTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#rating {
+    font-size: 13px;
+    font-family: Arial Unicode MS;
+}
+
+.iw_table_row {
+    height: 18px;
+}
+
+.iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+}
+
+.iw_table_icon {
+    text-align: right;
+}
+/*---------------------------------Section*/
+
+.section-heading {
+    font-family: "Exo", "sans-serif";
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#reset-button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filter-column {
+    height: 592px;
+    border-right: 1px solid #d0d0d0;
+
+}
+
+.radio-form {
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.radio-buttons {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-family: "Roboto", "sans-serif";
+    font-size: 15px;
+}
+
  

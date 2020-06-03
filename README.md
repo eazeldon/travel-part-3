@@ -87,6 +87,9 @@ Testing has been made in Cloud 9, Inspect mode. In addition, it has been live te
 
 
 ### Deployment
+I use GitHub to deploy my project using the following. Step 1: I created a new remote to GitHub, Step 2: In my environment I use this command " git status" or "git ls" to check my project. Step 3: I use this command ”git commit -m”Finished my project travel-3” and 2nd commit"finally I finished my map.js".step 4: I use "git add ." command. step 5: I use this command "git push" origin master. step :6 I open my GitHub to check if all my codes are there.
+
+
 
 
 ### acknowledgement

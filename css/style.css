@@ -871,7 +871,7 @@
  @media screen and (max-width: 767px) {
      .mobile-container {
          visibility: visible;
-         position: fixed;
+         position: absolute;
     
      }
      .mobile-nav a {
@@ -1020,6 +1020,10 @@
     padding: 5px;
     font-family: "Roboto", "sans-serif";
     font-size: 15px;
+}
+#go-top {
+    font-size: 16px;
+    color: white;
 }
 
  

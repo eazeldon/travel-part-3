@@ -871,7 +871,7 @@
  @media screen and (max-width: 767px) {
      .mobile-container {
          visibility: visible;
-         position: absolute;
+         position: fixed;
     
      }
      .mobile-nav a {

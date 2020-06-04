@@ -938,8 +938,16 @@
       #resultsTable {
           width: 300px;
       }
-
-
+      
+       input[type=checkbox], 
+       input[type=radio] 
+     {
+   
+   
+    line-height: normal;
+    /* margin-left: 10px; */
+    margin-top: 20px;
+     }
 
  }
  

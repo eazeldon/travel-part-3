@@ -627,7 +627,7 @@
  }
 
  #home {
-     /* visibility: hidden;*/
+     visibility: visible;
      font-size: 20px;
 
  }

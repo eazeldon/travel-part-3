@@ -627,7 +627,7 @@
  }
 
  #home {
-     visibility: visible;
+    /* visibility: hidden;*/
      font-size: 20px;
 
  }
@@ -858,11 +858,13 @@
       .opened {
          visibility: hidden;
      }
-      #home {
-         visibility: visible;
-     }
+     
 
  }
+  .fa-bars {
+         visibility: visible;
+
+     }
 
 
  @media screen and (max-width: 767px) {

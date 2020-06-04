@@ -875,8 +875,9 @@
     
      }
      .mobile-nav a {
-     padding-left: 30px;
-      padding-right: 30px;
+       margin-right: 400px;
+       padding-left: 20px;
+       padding-right: 20px;
          
      }
      .topnav {

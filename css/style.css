@@ -855,7 +855,12 @@
       #resultsTable {
           width: 300px;
       }
-
+      .opened {
+         visibility: hidden;
+     }
+      #home {
+         visibility: visible;
+     }
 
  }
 

@@ -1036,7 +1036,9 @@
      font-size: 25px;
     z-index: 3;
 }
-
+  iframe #video {
+     z-index: 4;
+}
  
 
  

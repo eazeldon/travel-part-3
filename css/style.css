@@ -1007,6 +1007,7 @@
 #reset-button {
     margin-bottom: 20px;
     margin-top: 20px;
+    z-index: 4;
 }
 
 .filter-column {
@@ -1028,6 +1029,7 @@
     font-family: "Roboto", "sans-serif";
     font-size: 15px;
 }
+/**footer***/
 #go-top {
     font-size: 16px;
     color: black;

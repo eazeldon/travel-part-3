@@ -876,6 +876,8 @@
     
      }
      .mobile-nav a {
+       margin-left: 5px; 
+       visibility: visible;
        margin-right: 370px;
        padding-left: 20px;
        padding-right: 20px;

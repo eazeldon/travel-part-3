@@ -484,7 +484,7 @@
 /* Button used to open the chat form - fixed at the bottom of the page chat*/
 
  .open-button {
-     z-index: 2;
+     z-index: 3;
      visibility: hidden;
      /*background-color: #555;*/
      background-color: #4caf5054;
@@ -936,6 +936,7 @@
   iframe #video {
          width: 320px;
          height: 300px;
+         z-index: 4;
      }
      h3 .places.country.city {
          margin-left: 60px;
@@ -1024,7 +1025,13 @@
 }
 #go-top {
     font-size: 16px;
-    color: white;
+    color: black;
 }
+.glyphicon  {
+     font-size: 25px;
+    z-index: 3;
+}
+
+ 
 
  

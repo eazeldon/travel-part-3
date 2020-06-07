@@ -869,10 +869,10 @@
      }
 
 
- @media screen and (max-width: 767px) {
+ @media screen and (max-width: 768px) {
      .mobile-container {
          visibility: visible;
-         position: fixed;
+         position: absolute;
     
      }
      .mobile-nav a {
@@ -903,6 +903,7 @@
      .open-button {
          right: 15px;
          visibility: visible;
+         bottom: 200px;
      }
      .fa-bars {
          visibility: visible;

@@ -628,7 +628,7 @@
  }
 
  #home {
-    /* visibility: hidden;*/
+    visibility: visible;
      font-size: 20px;
 
  }
@@ -925,9 +925,7 @@
          height: 200px;
          width: 90%;
      }
-     #video {
-         width: 320px;
-     }
+     
 
      .container-fluid {
          padding: 65px 50px;

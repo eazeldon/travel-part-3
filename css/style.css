@@ -869,7 +869,7 @@
      }
 
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 767px) {
      .mobile-container {
          visibility: visible;
          position: absolute;
@@ -890,7 +890,7 @@
          visibility: hidden;
      }
      #home {
-         visibility: hidden;
+         visibility: visible;
      }
      /*signup*/
      .btnn--cta {
@@ -906,7 +906,7 @@
          bottom: 200px;
      }
      .fa-bars {
-         visibility: visible;
+         visibility: hidden;
 
      }
 
@@ -958,6 +958,11 @@
   .glyphicon  {
     z-index: 3;
   }
+    .mobile-nav a:hover {
+      padding: 10px 30px;
+
+ }
+ 
  }
 
  

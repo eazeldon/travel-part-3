@@ -904,7 +904,8 @@
      .open-button {
          right: 15px;
          visibility: visible;
-         bottom: 200px;
+         /*bottom: 200px;*/
+         bottom: 30px;
      }
      .fa-bars {
          visibility: hidden;

@@ -974,6 +974,16 @@
  }
 
 }
+ @media screen and (max-width: 568px) { 
+   .container-fluid {
+    padding: 65px 30px;
+    
+}
+   iframe {
+    width: 260px;
+   }
+   
+  }
  
  /*---------------------------------Results Table*/
 
